@@ -1,0 +1,242 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color:burlywood;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  nav ul li a.hover
+{
+  
+  background-color: aqua;
+  color: black;
+}
+  
+  section {
+    padding: 40px;
+  }
+  #home {
+    padding: 200px 0;
+    text-align: center;
+    background-image: url("shahadat-rahman-BfrQnKBulYQ-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .home-content {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  .home-content h1 {
+    font-size: 48px;
+    color: #ff6600;
+    margin-bottom: 20px;
+  }
+  
+  .home-content p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 0;
+  }
+  
+  /* Work section */
+#work {
+    padding: 50px 0;
+    background-color: aliceblue;
+
+  }
+  
+  #work h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .project {
+    margin-bottom: 30px;
+  }
+  
+  .project h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .project img {
+    max-width:100%;
+    height: auto;
+    margin-bottom: 10px;
+    height: 70px;
+  }
+  
+  .project p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .project a {
+    display: inline-block;
+    background-color: #f44336;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  
+  .project a:hover {
+    background-color: #c62828;
+  }
+  
+  #about {
+    padding: 50px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  #about h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .about-content {
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  .about-content h3 {
+    font-size: 24px;
+    color: #ff6600;
+    margin-bottom: 10px;
+  }
+  
+  .about-content p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .about-content p:last-child {
+    margin-bottom: 0;
+  }
+  #contact {
+    padding: 50px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  #contact h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact-form textarea {
+    height: 150px;
+  }
+  
+  .contact-form button {
+    display: inline-block;
+    background-color: #f44336;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #c62828;
+  }
+  #resume {
+    padding: 50px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  #resume h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .resume-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .resume-section {
+    margin-bottom: 40px;
+  }
+  
+  .resume-section h3 {
+    font-size: 20px;
+    color: #ff6600;
+    margin-bottom: 10px;
+  }
+  
+  .resume-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #666;
+  }
+  
+  .resume-section li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .resume-section li:last-child {
+    margin-bottom: 0;
+  }
+  
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
